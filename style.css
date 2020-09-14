@@ -1,0 +1,386 @@
+html body{
+    margin: 0;
+    padding: 0;
+    background-color: #ecf4f3;
+}
+h2{
+    font-family: 'Philosopher', sans-serif;}
+hr{
+    background-color: rgb(153, 149, 149);
+    height: 1px;
+    border: none;
+    margin-top: 0;
+}
+
+#header{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+/* mobile design */
+
+.mobile{
+    width: 300px;
+    height: 610px;
+    background-color: rgb(28, 22, 56);
+    border: 1px solid none;
+    border-radius: 40px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 25px 0 grey;
+}
+
+
+/* top notch */
+
+.top-area{
+    width:150px;
+    height: 30px;
+    background-color: rgb(28, 22, 56);
+    border: 1px solid none;
+    border-radius: 40px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 10;
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature{
+    background-color: rgb(151, 151, 151);
+    border: 1px solid none;
+    position: relative;
+    top: 50%;
+    transform: translate(0 ,-50%);
+}
+
+.censor{
+    margin-left: 10px;
+    width: 20px;
+    height: 6px;
+    border-radius: 40px;
+}
+.microphone{
+    width: 50px;
+    height: 6px;
+    border-radius: 40px;
+}
+
+.front-camera{
+    margin-left: 5px;
+    margin-right: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+
+/* main ui starts here */
+
+
+.ui{
+    width: 275px;
+    height: 585px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid none;
+    border-radius: 30px;
+}
+
+/* notification panel */
+
+.notification{
+    display: flex;
+    justify-content: space-between;
+}
+.notification p{
+    margin-top: 0;
+    margin-left: 25px;
+    font-size: 8px;
+    position: relative;
+    top: 5px;
+}
+.icons img{
+    margin-top: 0;
+    width: 8px;
+    height: 8px;
+    position: relative;
+}
+.battery{
+    margin-right: 25px;
+}
+
+
+/* search bar */
+
+
+.search-section{
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.back{
+    margin: 10px 20px;
+}
+
+.back img{
+    width: 16px;
+    height: 16px;
+}
+
+.search{
+    width: 200px;
+    height: 28px;
+    background-color: rgb(214, 209, 209);
+    border: 1px solid none;
+    border-radius: 40px;
+    padding: 0px 30px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.search:hover{
+    background-color: rgb(150, 149, 149);
+}
+
+.search p{
+    font-size: 11px;
+    margin-top: 8px;
+    padding: 0;
+}
+
+.search p img{
+    width: 8px;
+    height: 8px;
+    padding-right: 5px;
+}
+
+
+
+/* cover area */
+
+.cover{
+    display: flex;
+}
+
+.cover-img{
+    width: 250px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 15px 15px 0 0;
+}
+
+.camera{
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgb(192, 191, 191);
+    border-radius: 50%;
+    background-color: rgb(231, 230, 230);
+}
+
+.camera:hover{
+    background-color: rgb(150, 149, 149);
+}
+
+.c-1{
+    position: relative;
+    top: 120px;
+    right: 25px;
+    padding: 8px;
+    z-index: 10;
+}
+
+/* dp area */
+
+.dp{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.profile-img{
+    width: 130px;
+    border: 5px solid white;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    bottom: 70px;
+    transform: translate(-50%);
+    z-index: 10;
+}
+.c-2{
+    padding: 10px;
+    position: relative;
+    left: 30px;
+    top: 30px;
+    z-index: 20;
+}
+
+
+/* information section */
+
+.information{
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+}
+
+.information h2{
+    margin: 0;
+}
+.information p{
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-family: 'EB Garamond', serif;
+}
+
+/* story section */
+
+.story{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12px;
+    position: relative;
+    bottom: 60px;
+}
+
+.big{
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    border: 1px solid none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+
+.big:hover{
+    background-color: rgb(56, 56, 216);   
+}
+
+.big span{
+    font-weight: bold;
+    margin-right: 8px;
+    padding: 0px 4px;
+    border: 1px solid none;
+    border-radius: 50%;
+    background-color: white;
+    color: blue;
+}
+
+.big p{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.small{
+    text-align: center;
+    border: 1px solid none;
+    border-radius: 5px;
+    background-color: rgb(197, 197, 197);
+    width: 40px;
+}
+
+.small p{
+    margin: 0;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+/* story section ends here */
+
+.bottom-hr{
+    width: 90%;
+    position: relative;
+    bottom: 50px;
+    background-color: rgb(204, 204, 204);
+}
+
+
+/* details section starts here */
+
+.details{
+    margin: 13px;
+    position: relative;
+    bottom: 53px;
+}
+
+.details img{
+    margin-bottom: 4px;
+    padding-top: 2px;
+    width: 15px;
+    height: 16px;
+    color: grey;
+}
+
+.details p{
+    margin: 0;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+.college, .home, .relation{
+    display: flex;
+}
+
+.college img{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 5px;
+}
+
+.home{
+    margin: 10px 0;
+}
+
+
+/* hobbies */
+
+
+.hobbies{
+    margin: 0 8px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.hobbies img{
+    margin-right: 3px;
+}
+
+.coding, .writing, .reading{
+    font-size: 12px;
+    padding: 5px 10px;
+    margin: 5px;
+    display: flex;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 20px;
+    background-color: #d3d3d3;
+    position: relative;
+    bottom: 60px;
+}
+
+.coding:hover, .writing:hover, .reading:hover{
+    background-color: #fad2d2;  
+}
+
+
+/* this code isn't clean */
